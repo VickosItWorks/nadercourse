@@ -1,8 +1,6 @@
 var nota = prompt("Ingrese la nota del alumno:");
 var calificacion = "Su calificacion es equivalente a: ";
 
-console.log(typeof nota);
-
 if (nota < 0 || nota > 10 || isNaN(nota)) {
   calificacion = "La calificacion no es valida";
 } else if (nota >= 0 && nota <= 3) {
