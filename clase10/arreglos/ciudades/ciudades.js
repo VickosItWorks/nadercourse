@@ -4,8 +4,6 @@ let acc = prompt("Ingrese el nombre de una ciudad");
 while (acc != null && acc != "0") {
   ciudades.push(acc);
   acc = prompt("Ingrese el nombre de una ciudad");
-  console.log(acc);
-  console.log(ciudades);
 }
 
 alert("El array es " + ciudades);

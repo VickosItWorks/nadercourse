@@ -6,8 +6,7 @@ for (let i = 0; i < 50; i++) {
   rtdo.push(dado1 + dado2);
 }
 
-console.log(rtdo);
-alert(rtdo);
+alert("Este es el array resultante de tirar los dados: " + rtdo);
 
 const sumatoria = (acc, valor) => acc + valor;
 const numsuma = rtdo.reduce(sumatoria);
