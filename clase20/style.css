@@ -1,0 +1,13 @@
+#gral-container,
+#allLists {
+  display: flex;
+}
+
+#allLists {
+  justify-content: space-around;
+}
+
+#gral-container {
+  flex-direction: column;
+  width: 100%;
+}
