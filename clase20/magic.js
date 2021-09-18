@@ -38,10 +38,8 @@ todasListas.addEventListener("click", function (evt) {
     return;
   }
 
-  let isPending = evt.path.filter((el) => el.className === "listapendiente")
-    .length
-    ? true
-    : false;
+  let isPending = !!evt.path.filter((el) => el.className === "listapendiente")
+    .length;
 
   if (isPending && evt.path.length === 11) {
     conseguirObj(
